@@ -1,0 +1,840 @@
+[
+  {
+    "authors": [
+      "Alistair Barr"
+    ],
+    "description": "Child and consumer advocacy groups complained to the FTC that Google’s new YouTube Kids app contains “inappropriate content,” including explicit sexual language and jokes about pedophilia.",
+    "epoch_date_downloaded": 1555113600,
+    "epoch_date_modified": 1592092800,
+    "epoch_date_published": 1431993600,
+    "epoch_date_submitted": 1559347200,
+    "image_url": "http://si.wsj.net/public/resources/images/BN-IM269_YouTub_P_20150518174822.jpg",
+    "language": "en",
+    "report_number": 1,
+    "source_domain": "blogs.wsj.com",
+    "submitters": [
+      "Roman Yampolskiy"
+    ],
+    "title": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’",
+    "name": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’",
+    "url": "https://blogs.wsj.com/digits/2015/05/19/googles-youtube-kids-app-criticized-for-inappropriate-content/",
+    "tags": [],
+    "editor_notes": "",
+    "cloudinary_id": "reports/si.wsj.net/public/resources/images/BN-IM269_YouTub_P_20150518174822.jpg",
+    "text": "Child and consumer advocacy groups complained to the Federal Trade Commission Tuesday that Google’s new YouTube Kids app contains “inappropriate content,” including explicit sexual language and jokes about pedophilia.\n\nGoogle launched the app for young children in February, saying the available videos were “narrowed down to content appropriate for kids.”",
+    "mongodb_id": "5d34b8c29ced494f010ed45a",
+    "objectID": "1",
+    "featured": 0,
+    "is_incident_report": true,
+    "namespaces": [
+      "CSETv0",
+      "GMF",
+      "CSETv1"
+    ],
+    "classifications": [
+      "CSETv0:Location:Global",
+      "CSETv0:Near Miss:Unclear/unknown",
+      "CSETv0:Named Entities:Google",
+      "CSETv0:Named Entities:YouTube",
+      "CSETv0:Named Entities:YouTube Kids",
+      "CSETv0:Technology Purveyor:Google",
+      "CSETv0:Technology Purveyor:YouTube",
+      "CSETv0:Intent:Accident",
+      "CSETv0:Severity:Moderate",
+      "CSETv0:Harm Type:Psychological harm",
+      "CSETv0:Harm Distribution Basis:Age",
+      "CSETv0:System Developer:YouTube",
+      "CSETv0:Sector of Deployment:Arts, entertainment and recreation",
+      "CSETv0:Nature of End User:Amateur",
+      "CSETv0:Relevant AI functions:Perception",
+      "CSETv0:Relevant AI functions:Cognition",
+      "CSETv0:Relevant AI functions:Action",
+      "CSETv0:AI Techniques:machine learning",
+      "CSETv0:AI Applications:content filtering",
+      "CSETv0:AI Applications:decision support",
+      "CSETv0:AI Applications:curation",
+      "CSETv0:AI Applications:recommendation engine",
+      "CSETv0:Physical System:Software only",
+      "CSETv0:Problem Nature:Unknown/unclear",
+      "GMF:Known AI Goal:Content Recommendation",
+      "GMF:Known AI Goal:Content Search",
+      "GMF:Known AI Goal:Hate Speech Detection",
+      "GMF:Known AI Goal:NSFW Content Detection",
+      "GMF:Known AI Technology:Content-based Filtering",
+      "GMF:Known AI Technology:Collaborative Filtering",
+      "GMF:Potential AI Technology:Classification",
+      "GMF:Potential AI Technology:Ensemble Aggregation",
+      "GMF:Potential AI Technology:Distributional Learning",
+      "GMF:Potential AI Technical Failure:Concept Drift",
+      "GMF:Potential AI Technical Failure:Generalization Failure",
+      "GMF:Potential AI Technical Failure:Misconfigured Aggregation",
+      "GMF:Potential AI Technical Failure:Distributional Bias",
+      "GMF:Potential AI Technical Failure:Misaligned Objective",
+      "GMF:Known AI Technical Failure:Tuning Issues",
+      "GMF:Known AI Technical Failure:Lack of Adversarial Robustness",
+      "GMF:Known AI Technical Failure:Adversarial Data",
+      "CSETv1:Harm Distribution Basis:none",
+      "CSETv1:Sector of Deployment:Arts, entertainment and recreation",
+      "CSETv1:Sector of Deployment:information and communication",
+      "CSETv1:Physical Objects:no",
+      "CSETv1:Entertainment Industry:yes",
+      "CSETv1:Report, Test, or Study of data:no",
+      "CSETv1:Deployed:yes",
+      "CSETv1:Producer Test in Controlled Conditions:no",
+      "CSETv1:Producer Test in Operational Conditions:no",
+      "CSETv1:User Test in Controlled Conditions:no",
+      "CSETv1:User Test in Operational Conditions:no",
+      "CSETv1:Tangible Harm:no tangible harm, near-miss, or issue",
+      "CSETv1:AI System:yes",
+      "CSETv1:AI Harm Level:none",
+      "CSETv1:Impact on Critical Services:no",
+      "CSETv1:Rights Violation:no",
+      "CSETv1:Involving Minor:yes",
+      "CSETv1:Detrimental Content:yes",
+      "CSETv1:Protected Characteristic:no",
+      "CSETv1:Clear link to Technology:yes",
+      "CSETv1:Annotator’s AI special interest intangible harm assessment:yes",
+      "CSETv1:Public Sector Deployment:no",
+      "CSETv1:Autonomy Level:Autonomy1",
+      "CSETv1:Intentional Harm:No. Not intentionally designed to perform harm",
+      "CSETv1:Special Interest Intangible Harm:yes",
+      "CSETv1:Date of Incident Year:2016",
+      "CSETv1:Multiple AI Interaction:no",
+      "CSETv1:Embedded:no",
+      "CSETv1:Location Country (two letters):US",
+      "CSETv1:Location Region:North America",
+      "CSETv1:Data Inputs:Youtube videos",
+      "CSETv1:AI Task:content moderation"
+    ],
+    "CSETv0": {
+      "Location": "Global",
+      "Near Miss": "Unclear/unknown",
+      "Named Entities": [
+        "Google",
+        "YouTube",
+        "YouTube Kids"
+      ],
+      "Technology Purveyor": [
+        "Google",
+        "YouTube"
+      ],
+      "Intent": "Accident",
+      "Severity": "Moderate",
+      "Harm Type": [
+        "Psychological harm"
+      ],
+      "Lives Lost": false,
+      "Harm Distribution Basis": [
+        "Age"
+      ],
+      "Infrastructure Sectors": [
+        ""
+      ],
+      "Financial Cost": "",
+      "System Developer": [
+        "YouTube"
+      ],
+      "Sector of Deployment": [
+        "Arts, entertainment and recreation"
+      ],
+      "Public Sector Deployment": false,
+      "Nature of End User": "Amateur",
+      "Level of Autonomy": "",
+      "Relevant AI functions": [
+        "Perception",
+        "Cognition",
+        "Action"
+      ],
+      "AI Techniques": [
+        "machine learning"
+      ],
+      "AI Applications": [
+        "content filtering",
+        "decision support",
+        "curation",
+        "recommendation engine"
+      ],
+      "Physical System": [
+        "Software only"
+      ],
+      "Problem Nature": [
+        "Unknown/unclear"
+      ]
+    },
+    "GMF": {
+      "Known AI Goal": [
+        "Content Recommendation",
+        "Content Search",
+        "Hate Speech Detection",
+        "NSFW Content Detection"
+      ],
+      "Known AI Goal Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"An off-brand Paw Patrol video called \\\"Babies Pretend to Die Suicide\\\" features several disturbing scenarios.\\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\\n\\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\\nMany of those views came from YouTube's \\\"up next\\\" and \\\"recommended\\\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\\nIf you don't pick another video to watch after the current video ends, the \\\"up next\\\" video will automatically play.\\n\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Content Recommendation\",\"Content Search\"]"
+            }
+          ]
+        }
+      ],
+      "Known AI Technology": [
+        "Content-based Filtering",
+        "Collaborative Filtering"
+      ],
+      "Known AI Technology Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"If you searched for \\\"moon landing\\\" on YouTube Kids, three videos appeared that claim that the moon landing was hoaxed. All three videos have since been hidden by YouTube after we informed it of the issue.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Content-based Filtering\"]"
+            }
+          ]
+        }
+      ],
+      "Potential AI Technology": [
+        "Classification",
+        "Ensemble Aggregation",
+        "Distributional Learning"
+      ],
+      "Potential AI Technology Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\nPart of YouTube’s plan is to increase human moderation and tweak its algorithm, “training machine-learning technology across other challenging content areas, including child safety and hate speech.” YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads — many of which, Golin says, aren’t child appropriate — this will affect channels and videos on the platform.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Ensemble Aggregation\"]"
+            }
+          ]
+        }
+      ],
+      "Potential AI Technical Failure": [
+        "Concept Drift",
+        "Generalization Failure",
+        "Misconfigured Aggregation",
+        "Distributional Bias",
+        "Misaligned Objective"
+      ],
+      "Potential AI Technical Failure Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"“From a child standpoint, the problem is not fixable,” Golin said. “The YouTube model has created something, which is so vast, but there are 400 hours of content are uploaded every minute. It’s simply too big. \""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Concept Drift\",\"Generalization Failure\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\\"There are vast, vast numbers of these videos,\\\" Bridle said. \\\"Channel after channel after channel of similar content, churned out at the rate of hundreds of new videos every week. Industrialized nightmare production.\\\"\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Generalization Failure\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\nPart of YouTube’s plan is to increase human moderation and tweak its algorithm, “training machine-learning technology across other challenging content areas, including child safety and hate speech.” YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads — many of which, Golin says, aren’t child appropriate — this will affect channels and videos on the platform.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Misconfigured Aggregation\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. \""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Misconfigured Aggregation\",\"Misaligned Objective\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to “smash” that like button and comment on their videos.\\nI spent a weekend babysitting my brother’s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, “Who is going to win this game?” ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He’d do that same thing several times throughout the video.\\n\\nWhat’s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It’s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube’s recommendation algorithm, thus bringing in more traffic and more money.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Misconfigured Aggregation\",\"Misaligned Objective\"]"
+            },
+            {
+              "short_name": "Snippet Discussion",
+              "value_json": "\"Recommendation training / video ranking is utilizing likes and engagement too much.\""
+            }
+          ]
+        }
+      ],
+      "Known AI Technical Failure": [
+        "Tuning Issues",
+        "Lack of Adversarial Robustness",
+        "Adversarial Data"
+      ],
+      "Known AI Technical Failure Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\nPart of YouTube’s plan is to increase human moderation and tweak its algorithm, “training machine-learning technology across other challenging content areas, including child safety and hate speech.” YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads — many of which, Golin says, aren’t child appropriate — this will affect channels and videos on the platform.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. \""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to “smash” that like button and comment on their videos.\\nI spent a weekend babysitting my brother’s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, “Who is going to win this game?” ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He’d do that same thing several times throughout the video.\\n\\nWhat’s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It’s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube’s recommendation algorithm, thus bringing in more traffic and more money.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            },
+            {
+              "short_name": "Snippet Discussion",
+              "value_json": "\"Recommendation training / video ranking is utilizing likes and engagement too much.\""
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"Conspiracy videos also appear when children search for popular conspiracy theories. Searches for \\\"chemtrails,\\\" \\\"flat earth,\\\" and \\\"nibiru\\\" are all allowed in the app. However, it's (hopefully) unlikely that children are regularly watching these videos unless they appear as suggestions on more popular content in the app.\\n\\nThe conspiracy videos didn't just appear in searches or suggested videos, either. After watching several conspiracy videos, the top recommended video on the home page of YouTube Kids was a conspiracy theory about aliens on the moon:\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"The first line of defense for YouTube Kids are algorithmic filters. After that, there is a team of humans that review videos which have been flagged. If a video with recognizable children’s characters gets flagged in YouTube’s main app, which is much larger than the Kids app, it will be sent to the policy review team. YouTube says it has thousands of people working around the clock in different time zones to review flagged content. If the review finds the video is in violation of the new policy, it will be age restrictied, automatically blocking it from showing up in the Kids app. YouTube says it typically takes at least a few days for content to make its way from YouTube proper to YouTube Kids, and the hope is that within that window, users will flag anything potentially disturbing to children. YouTube also has a team of volunteer moderators, which it calls Contributors, looking for inappropriate content. YouTube says it will start training its review team on the new policy and it should be live within a few weeks. \\nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids. Within that window it is hoped users and a specially-trained team will flag disturbing content.\\n\\n\\n\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Lack of Adversarial Robustness\",\"Adversarial Data\"]"
+            }
+          ]
+        }
+      ]
+    },
+    "CSETv1": {
+      "Harm Distribution Basis": [
+        "none"
+      ],
+      "Sector of Deployment": [
+        "Arts, entertainment and recreation",
+        "information and communication"
+      ],
+      "Physical Objects": "no",
+      "Entertainment Industry": "yes",
+      "Report, Test, or Study of data": "no",
+      "Deployed": "yes",
+      "Producer Test in Controlled Conditions": "no",
+      "Producer Test in Operational Conditions": "no",
+      "User Test in Controlled Conditions": "no",
+      "User Test in Operational Conditions": "no",
+      "Tangible Harm": "no tangible harm, near-miss, or issue",
+      "AI System": "yes",
+      "AI Harm Level": "none",
+      "Impact on Critical Services": "no",
+      "Rights Violation": "no",
+      "Involving Minor": "yes",
+      "Detrimental Content": "yes",
+      "Protected Characteristic": "no",
+      "Clear link to Technology": "yes",
+      "Annotator’s AI special interest intangible harm assessment": "yes",
+      "Public Sector Deployment": "no",
+      "Autonomy Level": "Autonomy1",
+      "Intentional Harm": "No. Not intentionally designed to perform harm",
+      "AI tools and methods": "",
+      "Special Interest Intangible Harm": "yes",
+      "Date of Incident Year": "2016",
+      "Multiple AI Interaction": "no",
+      "Embedded": "no",
+      "Location Country (two letters)": "US",
+      "Location Region": "North America",
+      "Infrastructure Sectors": [],
+      "Operating Conditions": "",
+      "Lives Lost": 0,
+      "Injuries": 0,
+      "Data Inputs": [
+        "Youtube videos"
+      ],
+      "Physical System Type": "",
+      "AI Task": [
+        "content moderation"
+      ]
+    },
+    "incident_id": 1,
+    "incident_date": "2015-05-19",
+    "epoch_incident_date": 1431993600,
+    "incident_title": "Google’s YouTube Kids App Presents Inappropriate Content",
+    "incident_description": "YouTube’s content filtering and recommendation algorithms exposed children to disturbing and inappropriate videos."
+  },
+  {
+    "authors": [
+      "Phoebe Weston"
+    ],
+    "description": "Investigators found several unsuitable videos on the San Bruno-based site, including one of a burning aeroplane from the cartoon Paw Patrol (pictured).",
+    "epoch_date_downloaded": 1555113600,
+    "epoch_date_modified": 1592092800,
+    "epoch_date_published": 1517961600,
+    "epoch_date_submitted": 1559347200,
+    "image_url": "https://i.dailymail.co.uk/i/pix/2018/02/06/15/48EEE02F00000578-0-image-a-18_1517931140185.jpg",
+    "language": "en",
+    "report_number": 2,
+    "source_domain": "dailymail.co.uk",
+    "submitters": [
+      "Roman Yampolskiy"
+    ],
+    "title": "YouTube Kids app is STILL showing disturbing videos",
+    "name": "YouTube Kids app is STILL showing disturbing videos",
+    "url": "https://www.dailymail.co.uk/sciencetech/article-5358365/YouTube-Kids-app-showing-disturbing-videos.html",
+    "tags": [],
+    "editor_notes": "",
+    "cloudinary_id": "reports/i.dailymail.co.uk/i/pix/2018/02/06/15/48EEE02F00000578-0-image-a-18_1517931140185.jpg",
+    "text": "Google-owned YouTube has apologised again after more disturbing videos surfaced on its YouTube Kids app.\n\nInvestigators found several unsuitable videos including one of a burning aeroplane from the cartoon Paw Patrol and footage explaining how to sharpen a knife.\n\nYouTube has been criticised for using algorithms to sieve through material rather than using human moderators to judge what might be appropriate.\n\nThere have been hundreds of disturbing videos found on YouTube Kids in recent months that are easily accessed by children.\n\nThese videos have featured horrible things happening to various characters, including ones from the Disney movie Frozen, the Minions franchise, Doc McStuffins and Thomas the Tank Engine.\n\nParents, regulators, advertisers and law enforcement have become increasingly concerned about the open nature of the service.\n\nScroll down for video\n\nYouTube has apologised again after more disturbing videos surfaced on its YouTube Kids app. Investigators found several unsuitable videos including one from the cartoon Paw Patrol on a burning aeroplane and footage showing how to sharpen a knife\n\nA YouTube spokesperson has admitted the company needs to 'do more' to tackle inappropriate videos on their kids platform.\n\nThis investigation is the latest to expose inappropriate content on the video-sharing site which has been subject to a slew of controversies since its creation in 2005.\n\nAs part of an in-depth investigation by BBC Newsround, Google's Public Policy Manager Katie O'Donovan met five children who told her about the distressing videos they had seen on the site.\n\nThey included videos showing clowns covered in blood and messages warning them there was someone at the door.\n\nMs O'Donovan said she was 'very, very sorry for any hurt or discomfort'.\n\n'We've actually built a whole new platform for kids, called YouTube Kids, where we take the best content, stuff that children are most interested in and put it on there in a packaged up place just for kids,' she said.\n\nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids.\n\nWithin that window it is hoped users and a specially-trained team will flag disturbing content.\n\nOnce it has been flagged and reviewed, it won't appear on the YouTube Kids app and only people who are signed in and older than 18 years old will be able to view it.\n\nThe company say thousands of people will be working around the clock to flag content.\n\nHowever, as part of the investigation Newsround revealed there are still lots of inappropriate videos on the Kids section.\n\n'We have seen significant investment in building the right tools so people can flag that [content], and those flags are reviewed very, very quickly', Ms O'Donovan said.\n\n'We're also beginning to use machine learning to identify the most harmful content, which is then automatically reviewed.'\n\nThe problem was managing an open platform where content is uploaded straight onto the site, she added.\n\n'It is a difficult environment because things are moving so, so quickly', said Ms O'Donovan.\n\n'We have a responsibility to make sure the platform can survive and can thrive so that we have a collection that comes from around the world on there'.\n\nBy the end of last year YouTube said it had removed more than 50 user channels and had stopped running ads on more than 3.5 million videos since June.\n\n'Content that endangers children is unacceptable to us and we have clear policies against such videos on YouTube and YouTube Kids', a YouTube spokesperson told MailOnline.\n\n'When we discover any inappropriate content, we quickly take action to remove it from our platform.\n\n'Over the past few months, we've taken a series of steps to tackle many of the emerging challenges around family content on YouTube, including: tightening enforcement of our Community Guidelines, age-gating content that inappropriately targets families, and removing it from the YouTube Kids app.'\n\nYouTube has been criticised for using algorithms to sieve through material rather than using human moderators to judge what might be appropriate (stock image)\n\nIn March, a disturbing Peppa Pig fake, found by journalist Laura June, shows a dentist with a huge syringe pulling out the character's teeth as she screams in distress.\n\nMrs June only realised the violent nature of the video as her three-year-old daughter watched it beside her.\n\n'Peppa does a lot of screaming and crying and the dentist is just a bit sadistic and it's just way, way off what a three-year-old should watch,' she said.\n\n'But the animation is close enough to looking like Peppa - it's crude but it's close enough that my daughter was like 'This is Peppa Pig.''\n\nAnother video depicted Peppa Pig and a friend deliberately burning down a house with someone in it.\n\nAll of these videos are easily accessed by children through YouTube's search results or recommended videos.\n\nIn March, a disturbing Peppa Pig fake, found by journalist Laura June, shows a dentist with a huge syringe pulling ou",
+    "mongodb_id": "5d34b8c29ced494f010ed45b",
+    "objectID": "2",
+    "featured": 0,
+    "is_incident_report": true,
+    "namespaces": [
+      "CSETv0",
+      "GMF",
+      "CSETv1"
+    ],
+    "classifications": [
+      "CSETv0:Location:Global",
+      "CSETv0:Near Miss:Unclear/unknown",
+      "CSETv0:Named Entities:Google",
+      "CSETv0:Named Entities:YouTube",
+      "CSETv0:Named Entities:YouTube Kids",
+      "CSETv0:Technology Purveyor:Google",
+      "CSETv0:Technology Purveyor:YouTube",
+      "CSETv0:Intent:Accident",
+      "CSETv0:Severity:Moderate",
+      "CSETv0:Harm Type:Psychological harm",
+      "CSETv0:Harm Distribution Basis:Age",
+      "CSETv0:System Developer:YouTube",
+      "CSETv0:Sector of Deployment:Arts, entertainment and recreation",
+      "CSETv0:Nature of End User:Amateur",
+      "CSETv0:Relevant AI functions:Perception",
+      "CSETv0:Relevant AI functions:Cognition",
+      "CSETv0:Relevant AI functions:Action",
+      "CSETv0:AI Techniques:machine learning",
+      "CSETv0:AI Applications:content filtering",
+      "CSETv0:AI Applications:decision support",
+      "CSETv0:AI Applications:curation",
+      "CSETv0:AI Applications:recommendation engine",
+      "CSETv0:Physical System:Software only",
+      "CSETv0:Problem Nature:Unknown/unclear",
+      "GMF:Known AI Goal:Content Recommendation",
+      "GMF:Known AI Goal:Content Search",
+      "GMF:Known AI Goal:Hate Speech Detection",
+      "GMF:Known AI Goal:NSFW Content Detection",
+      "GMF:Known AI Technology:Content-based Filtering",
+      "GMF:Known AI Technology:Collaborative Filtering",
+      "GMF:Potential AI Technology:Classification",
+      "GMF:Potential AI Technology:Ensemble Aggregation",
+      "GMF:Potential AI Technology:Distributional Learning",
+      "GMF:Potential AI Technical Failure:Concept Drift",
+      "GMF:Potential AI Technical Failure:Generalization Failure",
+      "GMF:Potential AI Technical Failure:Misconfigured Aggregation",
+      "GMF:Potential AI Technical Failure:Distributional Bias",
+      "GMF:Potential AI Technical Failure:Misaligned Objective",
+      "GMF:Known AI Technical Failure:Tuning Issues",
+      "GMF:Known AI Technical Failure:Lack of Adversarial Robustness",
+      "GMF:Known AI Technical Failure:Adversarial Data",
+      "CSETv1:Harm Distribution Basis:none",
+      "CSETv1:Sector of Deployment:Arts, entertainment and recreation",
+      "CSETv1:Sector of Deployment:information and communication",
+      "CSETv1:Physical Objects:no",
+      "CSETv1:Entertainment Industry:yes",
+      "CSETv1:Report, Test, or Study of data:no",
+      "CSETv1:Deployed:yes",
+      "CSETv1:Producer Test in Controlled Conditions:no",
+      "CSETv1:Producer Test in Operational Conditions:no",
+      "CSETv1:User Test in Controlled Conditions:no",
+      "CSETv1:User Test in Operational Conditions:no",
+      "CSETv1:Tangible Harm:no tangible harm, near-miss, or issue",
+      "CSETv1:AI System:yes",
+      "CSETv1:AI Harm Level:none",
+      "CSETv1:Impact on Critical Services:no",
+      "CSETv1:Rights Violation:no",
+      "CSETv1:Involving Minor:yes",
+      "CSETv1:Detrimental Content:yes",
+      "CSETv1:Protected Characteristic:no",
+      "CSETv1:Clear link to Technology:yes",
+      "CSETv1:Annotator’s AI special interest intangible harm assessment:yes",
+      "CSETv1:Public Sector Deployment:no",
+      "CSETv1:Autonomy Level:Autonomy1",
+      "CSETv1:Intentional Harm:No. Not intentionally designed to perform harm",
+      "CSETv1:Special Interest Intangible Harm:yes",
+      "CSETv1:Date of Incident Year:2016",
+      "CSETv1:Multiple AI Interaction:no",
+      "CSETv1:Embedded:no",
+      "CSETv1:Location Country (two letters):US",
+      "CSETv1:Location Region:North America",
+      "CSETv1:Data Inputs:Youtube videos",
+      "CSETv1:AI Task:content moderation"
+    ],
+    "CSETv0": {
+      "Location": "Global",
+      "Near Miss": "Unclear/unknown",
+      "Named Entities": [
+        "Google",
+        "YouTube",
+        "YouTube Kids"
+      ],
+      "Technology Purveyor": [
+        "Google",
+        "YouTube"
+      ],
+      "Intent": "Accident",
+      "Severity": "Moderate",
+      "Harm Type": [
+        "Psychological harm"
+      ],
+      "Lives Lost": false,
+      "Harm Distribution Basis": [
+        "Age"
+      ],
+      "Infrastructure Sectors": [
+        ""
+      ],
+      "Financial Cost": "",
+      "System Developer": [
+        "YouTube"
+      ],
+      "Sector of Deployment": [
+        "Arts, entertainment and recreation"
+      ],
+      "Public Sector Deployment": false,
+      "Nature of End User": "Amateur",
+      "Level of Autonomy": "",
+      "Relevant AI functions": [
+        "Perception",
+        "Cognition",
+        "Action"
+      ],
+      "AI Techniques": [
+        "machine learning"
+      ],
+      "AI Applications": [
+        "content filtering",
+        "decision support",
+        "curation",
+        "recommendation engine"
+      ],
+      "Physical System": [
+        "Software only"
+      ],
+      "Problem Nature": [
+        "Unknown/unclear"
+      ]
+    },
+    "GMF": {
+      "Known AI Goal": [
+        "Content Recommendation",
+        "Content Search",
+        "Hate Speech Detection",
+        "NSFW Content Detection"
+      ],
+      "Known AI Goal Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"An off-brand Paw Patrol video called \\\"Babies Pretend to Die Suicide\\\" features several disturbing scenarios.\\nThe YouTube Kids app filters out most - but not all - of the disturbing videos.\\n\\nBefore any video appears in the YouTube Kids app, it's filtered by algorithms that are supposed to identify appropriate children's content\\nYouTube also has a team of human moderators that review any videos flagged in the main YouTube app by volunteer Contributors (users who flag inappropriate content) or by systems that identify recognizable children's characters in the questionable video.\\nMany of those views came from YouTube's \\\"up next\\\" and \\\"recommended\\\" video section that appears while watching any video. YouTube's algorithms attempt to find videos that you may want to watch based on the video you chose to watch first\\nIf you don't pick another video to watch after the current video ends, the \\\"up next\\\" video will automatically play.\\n\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Content Recommendation\",\"Content Search\"]"
+            }
+          ]
+        }
+      ],
+      "Known AI Technology": [
+        "Content-based Filtering",
+        "Collaborative Filtering"
+      ],
+      "Known AI Technology Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"If you searched for \\\"moon landing\\\" on YouTube Kids, three videos appeared that claim that the moon landing was hoaxed. All three videos have since been hidden by YouTube after we informed it of the issue.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Content-based Filtering\"]"
+            }
+          ]
+        }
+      ],
+      "Potential AI Technology": [
+        "Classification",
+        "Ensemble Aggregation",
+        "Distributional Learning"
+      ],
+      "Potential AI Technology Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\nPart of YouTube’s plan is to increase human moderation and tweak its algorithm, “training machine-learning technology across other challenging content areas, including child safety and hate speech.” YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads — many of which, Golin says, aren’t child appropriate — this will affect channels and videos on the platform.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Ensemble Aggregation\"]"
+            }
+          ]
+        }
+      ],
+      "Potential AI Technical Failure": [
+        "Concept Drift",
+        "Generalization Failure",
+        "Misconfigured Aggregation",
+        "Distributional Bias",
+        "Misaligned Objective"
+      ],
+      "Potential AI Technical Failure Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"“From a child standpoint, the problem is not fixable,” Golin said. “The YouTube model has created something, which is so vast, but there are 400 hours of content are uploaded every minute. It’s simply too big. \""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Concept Drift\",\"Generalization Failure\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\\"There are vast, vast numbers of these videos,\\\" Bridle said. \\\"Channel after channel after channel of similar content, churned out at the rate of hundreds of new videos every week. Industrialized nightmare production.\\\"\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Generalization Failure\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\nPart of YouTube’s plan is to increase human moderation and tweak its algorithm, “training machine-learning technology across other challenging content areas, including child safety and hate speech.” YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads — many of which, Golin says, aren’t child appropriate — this will affect channels and videos on the platform.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Misconfigured Aggregation\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. \""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Misconfigured Aggregation\",\"Misaligned Objective\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to “smash” that like button and comment on their videos.\\nI spent a weekend babysitting my brother’s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, “Who is going to win this game?” ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He’d do that same thing several times throughout the video.\\n\\nWhat’s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It’s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube’s recommendation algorithm, thus bringing in more traffic and more money.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Misconfigured Aggregation\",\"Misaligned Objective\"]"
+            },
+            {
+              "short_name": "Snippet Discussion",
+              "value_json": "\"Recommendation training / video ranking is utilizing likes and engagement too much.\""
+            }
+          ]
+        }
+      ],
+      "Known AI Technical Failure": [
+        "Tuning Issues",
+        "Lack of Adversarial Robustness",
+        "Adversarial Data"
+      ],
+      "Known AI Technical Failure Snippets": [
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\nPart of YouTube’s plan is to increase human moderation and tweak its algorithm, “training machine-learning technology across other challenging content areas, including child safety and hate speech.” YouTube will also cut down on channels that receive monetization and advertisements attached to these videos. Since YouTube Kids also includes ads — many of which, Golin says, aren’t child appropriate — this will affect channels and videos on the platform.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"\\\"Recommendations are designed to optimize watch time, there is no reason that it shows content that is actually good for kids. \""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"On YouTube today, children are being exploited for money. YouTubers with channels specifically marketed toward children are cranking out videos to provide kids with loads of content to consume, as each video around 16 minutes long. (Which is the sweet spot for maximum ad revenue.) Frankly, YouTubers are practically begging their viewers to “smash” that like button and comment on their videos.\\nI spent a weekend babysitting my brother’s children and they spent most of that time watching channels like Chad Wild Clay. He would ask a question like, “Who is going to win this game?” ask kids to comment their predictions in the comments and then proceed to play the game, giving the kids the answer in the same video. He’d do that same thing several times throughout the video.\\n\\nWhat’s the point of the interactive bits if they can just skip ahead and get their answers without commenting at all? It’s simple: the more engagement the video gets, the more likely it is to be picked up by YouTube’s recommendation algorithm, thus bringing in more traffic and more money.\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            },
+            {
+              "short_name": "Snippet Discussion",
+              "value_json": "\"Recommendation training / video ranking is utilizing likes and engagement too much.\""
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"Conspiracy videos also appear when children search for popular conspiracy theories. Searches for \\\"chemtrails,\\\" \\\"flat earth,\\\" and \\\"nibiru\\\" are all allowed in the app. However, it's (hopefully) unlikely that children are regularly watching these videos unless they appear as suggestions on more popular content in the app.\\n\\nThe conspiracy videos didn't just appear in searches or suggested videos, either. After watching several conspiracy videos, the top recommended video on the home page of YouTube Kids was a conspiracy theory about aliens on the moon:\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Tuning Issues\"]"
+            }
+          ]
+        },
+        {
+          "attributes": [
+            {
+              "short_name": "Snippet Text",
+              "value_json": "\"The first line of defense for YouTube Kids are algorithmic filters. After that, there is a team of humans that review videos which have been flagged. If a video with recognizable children’s characters gets flagged in YouTube’s main app, which is much larger than the Kids app, it will be sent to the policy review team. YouTube says it has thousands of people working around the clock in different time zones to review flagged content. If the review finds the video is in violation of the new policy, it will be age restrictied, automatically blocking it from showing up in the Kids app. YouTube says it typically takes at least a few days for content to make its way from YouTube proper to YouTube Kids, and the hope is that within that window, users will flag anything potentially disturbing to children. YouTube also has a team of volunteer moderators, which it calls Contributors, looking for inappropriate content. YouTube says it will start training its review team on the new policy and it should be live within a few weeks. \\nIt normally takes five days for supposedly child-friendly content like cartoons to get from YouTube to YouTube Kids. Within that window it is hoped users and a specially-trained team will flag disturbing content.\\n\\n\\n\""
+            },
+            {
+              "short_name": "Related Classifications",
+              "value_json": "[\"Lack of Adversarial Robustness\",\"Adversarial Data\"]"
+            }
+          ]
+        }
+      ]
+    },
+    "CSETv1": {
+      "Harm Distribution Basis": [
+        "none"
+      ],
+      "Sector of Deployment": [
+        "Arts, entertainment and recreation",
+        "information and communication"
+      ],
+      "Physical Objects": "no",
+      "Entertainment Industry": "yes",
+      "Report, Test, or Study of data": "no",
+      "Deployed": "yes",
+      "Producer Test in Controlled Conditions": "no",
+      "Producer Test in Operational Conditions": "no",
+      "User Test in Controlled Conditions": "no",
+      "User Test in Operational Conditions": "no",
+      "Tangible Harm": "no tangible harm, near-miss, or issue",
+      "AI System": "yes",
+      "AI Harm Level": "none",
+      "Impact on Critical Services": "no",
+      "Rights Violation": "no",
+      "Involving Minor": "yes",
+      "Detrimental Content": "yes",
+      "Protected Characteristic": "no",
+      "Clear link to Technology": "yes",
+      "Annotator’s AI special interest intangible harm assessment": "yes",
+      "Public Sector Deployment": "no",
+      "Autonomy Level": "Autonomy1",
+      "Intentional Harm": "No. Not intentionally designed to perform harm",
+      "AI tools and methods": "",
+      "Special Interest Intangible Harm": "yes",
+      "Date of Incident Year": "2016",
+      "Multiple AI Interaction": "no",
+      "Embedded": "no",
+      "Location Country (two letters)": "US",
+      "Location Region": "North America",
+      "Infrastructure Sectors": [],
+      "Operating Conditions": "",
+      "Lives Lost": 0,
+      "Injuries": 0,
+      "Data Inputs": [
+        "Youtube videos"
+      ],
+      "Physical System Type": "",
+      "AI Task": [
+        "content moderation"
+      ]
+    },
+    "incident_id": 1,
+    "incident_date": "2015-05-19",
+    "epoch_incident_date": 1431993600,
+    "incident_title": "Google’s YouTube Kids App Presents Inappropriate Content",
+    "incident_description": "YouTube’s content filtering and recommendation algorithms exposed children to disturbing and inappropriate videos."
+  }
+]
