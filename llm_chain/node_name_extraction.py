@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 import os
 
-# Set API Key if its not set as an environment variable
+# Set API Key if not present as an environment variable
 # os.environ["OPENAI_API_KEY"] = ""
 
 # Literal Types for goals and technologies
