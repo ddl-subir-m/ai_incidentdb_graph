@@ -6,7 +6,8 @@ from llm_chain.node_name_extraction import extract_goal_tech
 
 
 def main():
-    file_path = 'data/aiidb_full.json'
+    # file_path = 'data/aiidb_full.json'
+    file_path = '/mnt/code/data/aiidb_full.json'
     incident_data = load_json_data(file_path)
     # incident_data = sample_incidents(incident_data, n=30)
     G = build_graph(incident_data)
