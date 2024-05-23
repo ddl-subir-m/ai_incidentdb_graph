@@ -1,4 +1,5 @@
 import json
+import os
 
 from data_handling.data_loaders import load_json_data, sample_incidents
 from graph_operations.graph_builder import build_graph, prune_nodes_by_degree_threshold
@@ -6,7 +7,11 @@ from graph_operations.graph_utils import save_nodes_to_csv, visualize_graph, get
     check_goals_and_run_pagerank, display_pagerank_scores
 from llm_chain.node_name_extraction import extract_goal_tech
 
-file_path = '/mnt/code/data/aiidb_full.json'
+file_path = None
+for path in ['data/aiidb_full.json', '/mnt/code/data/aiidb_full.json']:
+    if os.path.exists(path):
+        file_path = path
+        break
 incident_data = load_json_data(file_path)
 # incident_data = sample_incidents(incident_data, n=30)
 G = build_graph(incident_data)
