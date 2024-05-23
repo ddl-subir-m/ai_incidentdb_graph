@@ -8,10 +8,12 @@ def save_nodes_to_csv(G, filename="goals_technologies.csv"):
     """Save unique node types to CSV."""
     goals = list({data.get('name', n) for n, data in G.nodes(data=True) if data.get('type') == 'Goal'})
     technologies = list({data.get('name', n) for n, data in G.nodes(data=True) if data.get('type') == 'Technology'})
-    max_length = max(len(goals), len(technologies))
+    failures = list({data.get('name', n) for n, data in G.nodes(data=True) if data.get('type') == 'Failure'})
+    max_length = max(len(goals), len(technologies), len(failures))
     goals.extend([None] * (max_length - len(goals)))
     technologies.extend([None] * (max_length - len(technologies)))
-    df = pd.DataFrame({'Goals': goals, 'Technologies': technologies})
+    failures.extend([None] * (max_length - len(failures)))
+    df = pd.DataFrame({'Goals': goals, 'Technologies': technologies, 'Failures': failures})
     df.to_csv(filename, index=False)
     print(f"Data saved to {filename}")
 
@@ -42,7 +44,11 @@ def personalized_pagerank(G, start_nodes, alpha=0.85):
     total_personalization = sum(personalization.values())
     personalization = {k: v / total_personalization for k, v in personalization.items()}
     pagerank_scores = nx.pagerank(G, personalization=personalization, weight='weight', alpha=alpha)
-    return pagerank_scores
+    failure_pagerank_scores = {node: score for node, score in pagerank_scores.items() if
+                               G.nodes[node].get('type') == 'Failure'}
+
+    return failure_pagerank_scores
+
 
 
 def get_top_percentile_scores(pagerank_scores, percentile=90):
@@ -50,7 +56,10 @@ def get_top_percentile_scores(pagerank_scores, percentile=90):
     scores = list(pagerank_scores.values())
     threshold = np.percentile(scores, percentile)
     top_scores = {node: score for node, score in pagerank_scores.items() if score >= threshold}
-    return top_scores
+    # Sort the top scores in descending order
+    sorted_top_scores = dict(sorted(top_scores.items(), key=lambda item: item[1], reverse=True))
+
+    return sorted_top_scores
 
 
 def display_pagerank_scores(pagerank_scores, G, node_type='Failure'):

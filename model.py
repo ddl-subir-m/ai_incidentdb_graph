@@ -23,8 +23,24 @@ def failure_list(description: str, top_percentile: int = 85):
         if isinstance(result, str):
             return json.dumps({"status": "info", "message": result})
         else:
-            return json.dumps(
-                {"status": "success", "data": get_top_percentile_scores(result, percentile=top_percentile)})
+            top_scores = get_top_percentile_scores(result, percentile=top_percentile)
+            if top_scores:  # Ensure there is data to process
+                # Extract names and scores into separate lists
+                failures = list(top_scores.keys())
+                scores = list(top_scores.values())
+
+                # Construct and return the JSON object containing these lists
+                return json.dumps({
+                    "status": "success",
+                    "failure_modes": failures,
+                    "scores": scores
+                })
+            else:
+                # Return an error JSON if no data is available
+                return json.dumps({
+                    "status": "error",
+                    "message": f"No data available for the top {top_percentile} percentile"
+                })
     else:
         return json.dumps({"status": "info", "message": "No goals or technologies extracted."})
 
